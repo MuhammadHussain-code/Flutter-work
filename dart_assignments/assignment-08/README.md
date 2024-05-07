@@ -2,5 +2,5 @@
 
 # Output
 
-<img width="859" alt="Assignment-06 output" src="./output1.png">
-<img width="859" alt="Assignment-06 output" src="./output2.png">
+<img width="859" alt="Assignment-08 output1" src="./output1.png">
+<img width="859" alt="Assignment-08 output2" src="./output2.png">

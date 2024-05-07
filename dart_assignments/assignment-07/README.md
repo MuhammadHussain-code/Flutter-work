@@ -2,4 +2,4 @@
 
 # Output
 
-<img width="859" alt="Assignment-06 output" src="./output.png">
+<img width="859" alt="Assignment-07 output" src="./output.png">
