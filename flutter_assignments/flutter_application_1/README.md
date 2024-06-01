@@ -1,3 +1,6 @@
-# flutter_application_1
+# Flutter Assignment-01
 
-A new Flutter project.
+# Output
+
+<img width="859" alt="Assignment-01 output" src="./assets/output.png">
+<img width="859" alt="Assignment-01 Code" src="./assets/code.png">
