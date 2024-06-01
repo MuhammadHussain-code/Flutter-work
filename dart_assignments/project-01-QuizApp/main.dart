@@ -3,7 +3,7 @@ import 'dart:math';
 
 import 'db.dart';
 
-int QuestionsCount = 4;
+int QuestionsCount = 20;
 void main() {
   print('Welcome to the Quiz App!');
   String name = takeUsername();
