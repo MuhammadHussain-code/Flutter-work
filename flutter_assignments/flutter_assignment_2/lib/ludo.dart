@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
 
+double boxSize = 25;
 class LudoScreen extends StatelessWidget {
   const LudoScreen({super.key});
-
   @override
   Widget build(BuildContext context) {
     Color yellow = const Color(0xFFFFFF00);
@@ -296,8 +296,8 @@ class LudoScreen extends StatelessWidget {
                 length: 4,
               ),
               Container(
-                width: 40,
-                height: 40,
+                width: boxSize,
+                height: boxSize,
                 child: CustomPaint(
                   painter: DiagonalPainter(
                     color1: green2,
@@ -311,8 +311,8 @@ class LudoScreen extends StatelessWidget {
                 length: 1,
               ),
               Container(
-                width: 40,
-                height: 40,
+                width: boxSize,
+                height: boxSize,
                 child: CustomPaint(
                   painter: DiagonalPainter(
                     color1: yellow2,
@@ -346,8 +346,8 @@ class LudoScreen extends StatelessWidget {
                 length: 6,
               ),
               Container(
-                width: 40,
-                height: 40,
+                width: boxSize,
+                height: boxSize,
                 child: CustomPaint(
                   painter: CrossPainter(
                     color4: green2,
@@ -383,8 +383,8 @@ class LudoScreen extends StatelessWidget {
                 length: 3,
               ),
               Container(
-                width: 40,
-                height: 40,
+                width: boxSize,
+                height: boxSize,
                 child: CustomPaint(
                   painter: DiagonalPainter(
                     color1: green2,
@@ -397,8 +397,8 @@ class LudoScreen extends StatelessWidget {
                 length: 1,
               ),
               Container(
-                width: 40,
-                height: 40,
+                width: boxSize,
+                height: boxSize,
                 child: CustomPaint(
                   painter: DiagonalPainter(
                     color1: red2,
@@ -679,8 +679,8 @@ Widget makeAContainer({
   Color color = Colors.white,
 }) {
   return Container(
-    width: 40,
-    height: 40,
+    width: boxSize,
+    height: boxSize,
     decoration: BoxDecoration(
       color: isMiddle ? Colors.white : color,
       border: Border.all(color: Colors.black, width: 2),
