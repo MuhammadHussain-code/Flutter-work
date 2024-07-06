@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
-import 'package:full_page_ui/views/home_page.dart';
+import 'package:full_page_ui/views/home_view.dart';
 
 void main() {
-  runApp(const MainApp());
+  runApp(const MyApp());
 }
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: Homepage(),
-    );
+        title: 'Assignment 3',
+        theme: ThemeData(
+            colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+            useMaterial3: true),
+        home: const MyHomePage(title: 'Home Screen'),
+        debugShowCheckedModeBanner: false);
   }
 }
